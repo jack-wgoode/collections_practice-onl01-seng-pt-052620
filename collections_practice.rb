@@ -52,3 +52,11 @@ def kesha_maker(array)
     word.gsub(word[2],"$")
     end
 end
+
+def find_a(array)
+    array.collect do |word|
+    word.gsub(word[2],"$")
+    end
+end
+    
+   
