@@ -50,7 +50,7 @@ end
 def kesha_maker(array)
      kesha_style = []
      array.collect do 
-     |word| kesha_style << word.gsubstr([2],"$")
+     |word| kesha_style << word.gsub([2],"$")
      end
 end
 
