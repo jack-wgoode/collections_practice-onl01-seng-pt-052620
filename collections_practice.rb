@@ -1,6 +1,8 @@
 def sort_array_asc(int_array)
-  int_array.collect do |num|
-    yield()
+  sorted_array = []
+    sorted_array << yield()
+    sorted_array
+  end 
   
   
   
