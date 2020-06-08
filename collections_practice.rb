@@ -47,12 +47,13 @@ def reverse_array(int_array)
   int_array.reverse
 end
 
-def kesha_maker(array)
-     kesha_style = []
-     array.collect do 
-     |word| kesha_style << word.gsub(word[2],"$")
-     end
+def kesha(array)
+    kesha = []
+    i = 0
+  while i < array.length
+    kesha << array[i].gsub(array[i][2],"$")
+    i += 1
+  end
+    kesha
 end
-
-  
 
