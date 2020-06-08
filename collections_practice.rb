@@ -1,14 +1,5 @@
-def sort_array_asc(int_array)
-  sorted_array = []
-    sorted_array << yield(int_array)
-    sorted_array
-  end 
-  
-  
-  
-  
-
-sort_array_asc do |a, b|
+def sort_array_asc(array_of_int)
+array_of_int.sort  do |a, b|
   if a == b
     0
   elsif a < b
@@ -16,4 +7,10 @@ sort_array_asc do |a, b|
   elsif a > b
     1
   end
-end
+ end
+end 
+
+
+  
+  
+
