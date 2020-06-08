@@ -47,7 +47,7 @@ def reverse_array(int_array)
   int_array.reverse
 end
 
-def kesha_collect(array)
+def kesha_maker(array)
     array.collect do |word|
     word.gsub(word[2],"$")
     end
