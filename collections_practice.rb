@@ -48,9 +48,9 @@ def reverse_array(int_array)
 end
 
 def kesha_maker(array)
-     kesha = []
+     kesha_style = []
      array.collect do 
-     |word| kesha << word.insert(2,"$")
+     |word| kesha_style << word.insert(2,"$")
      end
 end
 
