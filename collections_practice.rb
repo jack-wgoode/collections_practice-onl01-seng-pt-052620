@@ -35,5 +35,17 @@ array_of_strings.sort  do |a, b|
  end
 end 
 
+def swap_elements
+  
+end
+
+
+
+
+def reverse_array(int_array)
+  int_array.reverse
+  
+end
+
   
 
