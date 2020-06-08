@@ -1,5 +1,5 @@
 def sort_array_asc(array_of_int)
-array_of_int.sort  do |a, b|
+ array_of_int.sort  do |a, b|
   if a == b
     0
   elsif a < b
@@ -11,8 +11,8 @@ array_of_int.sort  do |a, b|
 end 
 
 
-  def sort_array_desc(array_of_int)
-array_of_int.sort  do |a, b|
+def sort_array_desc(array_of_int)
+ array_of_int.sort  do |a, b|
   if a == b
     0
   elsif a < b
