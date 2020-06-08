@@ -30,9 +30,10 @@ array_of_strings.sort  do |a, b|
   elsif a.length < b.length
      -1
   elsif a.length > b.length
-      1
+    1
   end
  end
 end 
+
   
 
