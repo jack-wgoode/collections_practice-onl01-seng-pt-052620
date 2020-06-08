@@ -7,7 +7,6 @@ def sort_array_asc(int_array)
   
   
   
-end
 
 sort_array_asc do |a, b|
   if a == b
