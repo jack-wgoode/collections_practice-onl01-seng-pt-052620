@@ -1,6 +1,6 @@
 def sort_array_asc(int_array)
   sorted_array = []
-    sorted_array << yield()
+    sorted_array << yield(int_array)
     sorted_array
   end 
   
