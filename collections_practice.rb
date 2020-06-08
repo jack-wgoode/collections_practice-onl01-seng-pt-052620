@@ -47,5 +47,12 @@ def reverse_array(int_array)
   int_array.reverse
 end
 
+def kesha_maker(array)
+     kesha = []
+     array.collect do 
+     |word| kesha << word.insert(2,"$")
+     end
+end
+
   
 
