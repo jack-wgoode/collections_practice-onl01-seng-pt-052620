@@ -48,9 +48,7 @@ def reverse_array(int_array)
 end
 
 def kesha_collect(array)
-  kesha = []
-  array.collect do |word|
-  word.gsub(word[2],"$")
- end
-
+    array.collect do |word|
+    word.gsub(word[2],"$")
+    end
 end
