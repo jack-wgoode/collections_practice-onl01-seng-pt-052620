@@ -55,7 +55,7 @@ end
 
 def find_a(array)
     array.collect do |word|
-    word.gsub(word[2],"$")
+    word.start_
     end
 end
     
